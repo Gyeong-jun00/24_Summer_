@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Game\02. Manager">
+      <UniqueIdentifier>{ce17364b-3cc7-4ead-8fd1-70e1db3cf70d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\00. CCore">
+      <UniqueIdentifier>{bcc9b25f-1124-4d71-b77a-b414cec43f4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\00. CCore\01. CObject">
+      <UniqueIdentifier>{d0e01d18-9e0a-4064-aee0-c6496d7ead7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Scene">
+      <UniqueIdentifier>{148e5879-f5c6-45eb-b111-645d7c27528a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Scene\Start_Scene">
+      <UniqueIdentifier>{c32ad020-23c0-41f2-8942-91008a320f42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\Key">
+      <UniqueIdentifier>{a4798647-aa75-40a6-a5fc-aae85c2a0af1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\Scene">
+      <UniqueIdentifier>{d0bbd9ad-fc59-4951-8c18-8472662cfb1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\Time">
+      <UniqueIdentifier>{77f8de67-511c-4d11-8209-5b87e55c2694}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\00. CCore\01. CObject\Player">
+      <UniqueIdentifier>{decfeb22-b5de-4752-8eff-44a0ef46f22c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="24%27 여름학기.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CCore.h">
+      <Filter>Game\00. CCore</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject.h">
+      <Filter>Game\00. CCore\01. CObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene.h">
+      <Filter>Game\03. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Game\00. CCore\01. CObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Start_Scene.h">
+      <Filter>Game\03. Scene\Start_Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>Game\02. Manager\Key</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeMgr.h">
+      <Filter>Game\02. Manager\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>Game\02. Manager\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="CCore.cpp">
+      <Filter>Game\00. CCore</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject.cpp">
+      <Filter>Game\00. CCore\01. CObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene.cpp">
+      <Filter>Game\03. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Game\00. CCore\01. CObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Start_Scene.cpp">
+      <Filter>Game\03. Scene\Start_Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>Game\02. Manager\Key</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeMgr.cpp">
+      <Filter>Game\02. Manager\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>Game\02. Manager\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="24%27 여름학기.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="24%27 여름학기.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
