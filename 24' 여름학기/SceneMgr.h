@@ -10,6 +10,9 @@ public:
 	void Render(HDC hdc);
 private:
 	CScene* arrScene[(UINT)(SCENE_TYPE::END)];
-	CScene* currScene = nullptr;
+	CScene* currScene;
+
+public:
+	CScene* GetCurScene() { return currScene; }
 };
 

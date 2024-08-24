@@ -1,29 +1,75 @@
 ﻿  CScene.cpp
-C:\Users\LCM\Desktop\24' 여름학기\struct.h(20,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\LCM\Desktop\24' 여름학기\struct.h(27,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   (소스 파일 'CScene.cpp'을(를) 컴파일하는 중)
   
-C:\Users\LCM\Desktop\24' 여름학기\struct.h(21,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\LCM\Desktop\24' 여름학기\struct.h(28,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   (소스 파일 'CScene.cpp'을(를) 컴파일하는 중)
   
   KeyMgr.cpp
-C:\Users\LCM\Desktop\24' 여름학기\struct.h(20,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\LCM\Desktop\24' 여름학기\struct.h(27,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   (소스 파일 'KeyMgr.cpp'을(를) 컴파일하는 중)
   
-C:\Users\LCM\Desktop\24' 여름학기\struct.h(21,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\LCM\Desktop\24' 여름학기\struct.h(28,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   (소스 파일 'KeyMgr.cpp'을(를) 컴파일하는 중)
   
   main.cpp
-C:\Users\LCM\Desktop\24' 여름학기\struct.h(20,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\LCM\Desktop\24' 여름학기\struct.h(27,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   (소스 파일 'main.cpp'을(를) 컴파일하는 중)
   
-C:\Users\LCM\Desktop\24' 여름학기\struct.h(21,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\LCM\Desktop\24' 여름학기\struct.h(28,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   (소스 파일 'main.cpp'을(를) 컴파일하는 중)
   
   CCore.cpp
-C:\Users\LCM\Desktop\24' 여름학기\struct.h(20,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\LCM\Desktop\24' 여름학기\struct.h(27,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   (소스 파일 'CCore.cpp'을(를) 컴파일하는 중)
   
-C:\Users\LCM\Desktop\24' 여름학기\struct.h(21,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\LCM\Desktop\24' 여름학기\struct.h(28,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   (소스 파일 'CCore.cpp'을(를) 컴파일하는 중)
+  
+  CObject.cpp
+C:\Users\LCM\Desktop\24' 여름학기\struct.h(27,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'CObject.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\LCM\Desktop\24' 여름학기\struct.h(28,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'CObject.cpp'을(를) 컴파일하는 중)
+  
+  Monster.cpp
+C:\Users\LCM\Desktop\24' 여름학기\struct.h(27,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Monster.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\LCM\Desktop\24' 여름학기\struct.h(28,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Monster.cpp'을(를) 컴파일하는 중)
+  
+  Player.cpp
+C:\Users\LCM\Desktop\24' 여름학기\struct.h(27,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Player.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\LCM\Desktop\24' 여름학기\struct.h(28,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Player.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\LCM\Desktop\24' 여름학기\Player.cpp(12,19): warning C4244: '-=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\LCM\Desktop\24' 여름학기\Player.cpp(15,19): warning C4244: '-=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\LCM\Desktop\24' 여름학기\Player.cpp(18,19): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\LCM\Desktop\24' 여름학기\Player.cpp(21,19): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  SceneMgr.cpp
+C:\Users\LCM\Desktop\24' 여름학기\struct.h(27,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'SceneMgr.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\LCM\Desktop\24' 여름학기\struct.h(28,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'SceneMgr.cpp'을(를) 컴파일하는 중)
+  
+  Start_Scene.cpp
+C:\Users\LCM\Desktop\24' 여름학기\struct.h(27,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Start_Scene.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\LCM\Desktop\24' 여름학기\struct.h(28,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Start_Scene.cpp'을(를) 컴파일하는 중)
+  
+  TimeMgr.cpp
+C:\Users\LCM\Desktop\24' 여름학기\struct.h(27,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'TimeMgr.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\LCM\Desktop\24' 여름학기\struct.h(28,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'TimeMgr.cpp'을(를) 컴파일하는 중)
   
   24' 여름학기.vcxproj -> C:\Users\LCM\Desktop\24' 여름학기\x64\Debug\24' 여름학기.exe

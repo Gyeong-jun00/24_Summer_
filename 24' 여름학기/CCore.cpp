@@ -28,36 +28,6 @@ CCore::~CCore()
 	DeleteObject(hBit);
 }
 
-void CCore::Update() // 움직이는거
-{
-	TimeMgr::Instance()->Update();
-	KeyMgr::Instance()->update();
-	SceneMgr::Instance()->Update();
-
-	Vec2 vPos = obj.getPos();
-
-	if (GetAsyncKeyState(VK_LEFT) & 0x8000) {
-		vPos.x -= 200.f * fDT;
-	}
-	if (GetAsyncKeyState(VK_RIGHT) & 0x8000) {
-		vPos.x += 200.f * fDT;
-	}
-	
-	obj.SetPos(vPos);
-
-}
-
-void CCore::Render() // 사각형 생성
-{
-	
-
-	Rectangle(mdc, -1, -1, ptResolution.x + 1, ptResolution.y + 1);
-	TimeMgr::Instance()->Render();
-	SceneMgr::Instance()->Render(mdc);
-	BitBlt(hdc, 0, 0, ptResolution.x, ptResolution.y,
-		mdc, 0, 0, SRCCOPY);
-}
-
 int CCore::init(HWND _handle, POINT _pt)
 {
 	handle = _handle;
@@ -90,7 +60,15 @@ int CCore::init(HWND _handle, POINT _pt)
 void CCore::Progress()
 {
 	TimeMgr::Instance()->Update();
+	KeyMgr::Instance()->Update();
+	SceneMgr::Instance()->Update();
+
+	// 화면 CLEAR
+	Rectangle(mdc, -1, -1, ptResolution.x + 1, ptResolution.y + 1);
+
 	TimeMgr::Instance()->Render();
-	Update();
-	Render();
+	SceneMgr::Instance()->Render(mdc);
+
+	BitBlt(hdc, 0, 0, ptResolution.x, ptResolution.y,
+		mdc, 0, 0, SRCCOPY);
 }

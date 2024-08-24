@@ -2,6 +2,9 @@
 #include <Windows.h>
 #include <iostream>
 
+#include <math.h>
+#include <assert.h>
+
 #include <vector>
 using std::vector;
 

@@ -219,7 +219,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
             HPEN defaultPen = (HPEN)SelectObject(hdc, redPen);
             HBRUSH defaultBrush = (HBRUSH)SelectObject(hdc, blackBrush);
 
-            if (act) {
+           /* if (act) {
                 Rectangle(hdc, ptLT.x, ptLT.y, ptRB.x, ptRB.y);
             }
             for (size_t i = 0; i < vecInfo.size(); ++i) {
@@ -227,7 +227,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
                     , vecInfo[i].objpos.y - vecInfo[i].objScale.y / 2
                     , vecInfo[i].objpos.x + vecInfo[i].objScale.x / 2
                     , vecInfo[i].objpos.y + vecInfo[i].objScale.y / 2);
-            }
+            }*/
 
             /*Rectangle(hdc, objpos.x - objScale.x / 2
                 , objpos.y - objScale.y / 2

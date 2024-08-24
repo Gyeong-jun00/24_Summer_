@@ -14,8 +14,8 @@ public:
 	void SetPos(Vec2 _pos) { vPos = _pos; }
 	void SetScale(Vec2 _scale) { vScale = _scale; }
 
-	Vec2 getPos() { return vPos; }
-	Vec2 getScale() { return vScale; }
+	Vec2 GetPos() { return vPos; }
+	Vec2 GetScale() { return vScale; }
 
 	virtual void Update();
 	virtual void Render(HDC hdc);

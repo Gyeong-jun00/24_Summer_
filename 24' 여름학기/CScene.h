@@ -20,7 +20,7 @@ public:
 	void SetName(const wstring& _strName) { strName = _strName; }
 	const wstring& GetName() { return strName; }
 
-protected:
+public:
 	void AddObject(CObject* obj, GROUP_TYPE type) {
 		arrObj[(UINT)type].push_back(obj);
 	}

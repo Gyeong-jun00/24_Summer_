@@ -4,6 +4,13 @@ struct Vec2 {
 	float x;
 	float y;
 
+public:
+	Vec2& operator = (POINT _pt)
+	{
+		x = (float)_pt.x;
+		y = (float)_pt.y;
+	}
+
 	Vec2()
 		: x(0.f)
 		, y(0.f)
@@ -20,5 +27,28 @@ struct Vec2 {
 		: x(_x)
 		, y(_y)
 	{
+	}
+
+	Vec2(const POINT& _pt)
+		: x((float)_pt.x)
+		, y((float)_pt.y)
+	{
+	}
+
+	float Length()
+	{
+		return sqrt(x * x + y * y);
+	}
+
+	Vec2& Normalize()
+	{
+		float len = Length();
+
+		assert(len != 0.f);
+
+		x /= len;
+		y /= len;
+
+		return *this;
 	}
 };

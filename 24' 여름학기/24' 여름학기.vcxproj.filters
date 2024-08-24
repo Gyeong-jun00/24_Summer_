@@ -19,9 +19,6 @@
     <Filter Include="Game\00. CCore">
       <UniqueIdentifier>{bcc9b25f-1124-4d71-b77a-b414cec43f4b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Game\00. CCore\01. CObject">
-      <UniqueIdentifier>{d0e01d18-9e0a-4064-aee0-c6496d7ead7a}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Game\03. Scene">
       <UniqueIdentifier>{148e5879-f5c6-45eb-b111-645d7c27528a}</UniqueIdentifier>
     </Filter>
@@ -37,8 +34,23 @@
     <Filter Include="Game\02. Manager\Time">
       <UniqueIdentifier>{77f8de67-511c-4d11-8209-5b87e55c2694}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Game\00. CCore\01. CObject\Player">
+    <Filter Include="Game\01. CObject">
+      <UniqueIdentifier>{d0e01d18-9e0a-4064-aee0-c6496d7ead7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\01. CObject\Player">
       <UniqueIdentifier>{decfeb22-b5de-4752-8eff-44a0ef46f22c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\01. CObject\Monster">
+      <UniqueIdentifier>{89615e51-1474-4c0a-bfab-2d388caab91b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\01. CObject\Missile">
+      <UniqueIdentifier>{3e638789-1013-4f2d-86f6-9df472666d51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Resource">
+      <UniqueIdentifier>{7f2be37c-cbac-4d11-9090-34453a8441da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\Path">
+      <UniqueIdentifier>{5d2249ca-f750-4a21-bc4c-507353dcb953}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -67,13 +79,13 @@
       <Filter>Game\00. CCore</Filter>
     </ClInclude>
     <ClInclude Include="CObject.h">
-      <Filter>Game\00. CCore\01. CObject</Filter>
+      <Filter>Game\01. CObject</Filter>
     </ClInclude>
     <ClInclude Include="CScene.h">
       <Filter>Game\03. Scene</Filter>
     </ClInclude>
     <ClInclude Include="Player.h">
-      <Filter>Game\00. CCore\01. CObject\Player</Filter>
+      <Filter>Game\01. CObject\Player</Filter>
     </ClInclude>
     <ClInclude Include="Start_Scene.h">
       <Filter>Game\03. Scene\Start_Scene</Filter>
@@ -87,6 +99,18 @@
     <ClInclude Include="SceneMgr.h">
       <Filter>Game\02. Manager\Scene</Filter>
     </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>Game\01. CObject\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Missile.h">
+      <Filter>Game\01. CObject\Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="Res.h">
+      <Filter>Game\04. Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="PathMgr.h">
+      <Filter>Game\02. Manager\Path</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -96,13 +120,13 @@
       <Filter>Game\00. CCore</Filter>
     </ClCompile>
     <ClCompile Include="CObject.cpp">
-      <Filter>Game\00. CCore\01. CObject</Filter>
+      <Filter>Game\01. CObject</Filter>
     </ClCompile>
     <ClCompile Include="CScene.cpp">
       <Filter>Game\03. Scene</Filter>
     </ClCompile>
     <ClCompile Include="Player.cpp">
-      <Filter>Game\00. CCore\01. CObject\Player</Filter>
+      <Filter>Game\01. CObject\Player</Filter>
     </ClCompile>
     <ClCompile Include="Start_Scene.cpp">
       <Filter>Game\03. Scene\Start_Scene</Filter>
@@ -115,6 +139,18 @@
     </ClCompile>
     <ClCompile Include="SceneMgr.cpp">
       <Filter>Game\02. Manager\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>Game\01. CObject\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Missile.cpp">
+      <Filter>Game\01. CObject\Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="Res.cpp">
+      <Filter>Game\04. Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="PathMgr.cpp">
+      <Filter>Game\02. Manager\Path</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -60,7 +60,7 @@ private:
 
 public:
 	void	Init();
-	void	update();
+	void	Update();
 
 public:
 	KEY_TYPE GetKeyState(KEY key) { return vecKey[(int)key].state; }

@@ -24,6 +24,7 @@
     <ProjectGuid>{a3741c47-7b26-47c6-a6c3-af68caf82729}</ProjectGuid>
     <RootNamespace>My24여름학기</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>24_Summer</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -70,6 +71,12 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)Output\bin_debug\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)Output\bin\</OutDir>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -136,8 +143,12 @@
     <ClInclude Include="define.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="KeyMgr.h" />
+    <ClInclude Include="Missile.h" />
+    <ClInclude Include="Monster.h" />
+    <ClInclude Include="PathMgr.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="Res.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="SceneMgr.h" />
     <ClInclude Include="Start_Scene.h" />
@@ -151,7 +162,11 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="CCore.cpp" />
     <ClCompile Include="CObject.cpp" />
+    <ClCompile Include="Missile.cpp" />
+    <ClCompile Include="Monster.cpp" />
+    <ClCompile Include="PathMgr.cpp" />
     <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Res.cpp" />
     <ClCompile Include="SceneMgr.cpp" />
     <ClCompile Include="Start_Scene.cpp" />
     <ClCompile Include="TimeMgr.cpp" />
